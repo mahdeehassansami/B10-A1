@@ -1,3 +1,42 @@
+* {
+  font-family: "Azeret Mono";
+}
+h1 {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 68px; /* 141.667% */
+}
+h2 {
+  align-self: stretch;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+h4 {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
 .banner-section {
   background-image: url("images/Hero-bg.png");
   height: 652px;
@@ -7,27 +46,10 @@
   display: flex;
   justify-content: center;
 }
-.banner-section h1 {
-  color: #0d1321;
-  text-align: center;
-  font-family: "Azeret Mono";
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 68px; /* 141.667% */
-}
-.banner-section h4 {
-  color: #0d1321;
-  text-align: center;
-  font-family: "Azeret Mono";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
-}
-.btn-container{
-    display: flex;
-    justify-content: center;
+
+.btn-container {
+  display: flex;
+  justify-content: center;
 }
 .cont {
   color: #fff;
@@ -42,4 +64,41 @@
   gap: 10px;
   border-radius: 8px;
   background: #0d1321;
+}
+/* section 2 */
+.whyweb {
+  margin-top: 154px;
+  text-align: center;
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin: 100px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.learn {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
