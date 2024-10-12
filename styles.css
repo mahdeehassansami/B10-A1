@@ -147,9 +147,71 @@ h4 {
   justify-content: center;
   gap: 24px;
 }
-.target>div>div>h2{
-text-align: left;
+.target > div > div > h2 {
+  text-align: left;
 }
-.target>div>div>h4{
-text-align: left;
+.target > div > div > h4 {
+  text-align: left;
+}
+.support {
+  display: flex;
+  justify-content: center;
+}
+.queries {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    url("images/handshake.jpg") lightgray 50% / cover no-repeat;
+  margin-top: 100px;
+  width: 1140px;
+  display: flex;
+  padding: 64px 48px;
+  flex-direction: column;
+  gap: 32px;
+}
+.queries > div > h2 {
+  color: white;
+}
+.queries > div > h4 {
+  color: white;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#query {
+  width: 548px;
+  padding: 19px 20px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+}
+.submit {
+  display: flex;
+  width: 120px;
+  padding: 17px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+#socials {
+  display: flex;
+  padding-top: 24px;
+  gap: 10px;
+  height: 36px;
+}
+.foot {
+  margin-top: 100px;
+  display: flex;
+  justify-content:space-between;
 }
