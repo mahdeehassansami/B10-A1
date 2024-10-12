@@ -102,3 +102,54 @@ h4 {
   font-weight: 600;
   line-height: normal;
 }
+.inspiration-text {
+  align-items: center;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 180px;
+}
+.targetcontainer1 {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  display: flex;
+  width: 364px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.targetcontainer2 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  display: flex;
+  width: 364px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.targetcontainer3 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  display: flex;
+  width: 364px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.target {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.target>div>div>h2{
+text-align: left;
+}
+.target>div>div>h4{
+text-align: left;
+}
